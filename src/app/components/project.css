@@ -1,0 +1,77 @@
+/* Project.css */
+
+.project-section {
+	padding: 2.5rem 0;
+	background: linear-gradient(to bottom, #0e051f, #571b52);
+  }
+  
+  .project-container {
+	text-align: center;
+  }
+  
+  .project-title {
+	font-size: 2.25rem;
+	color: #f8fafc;
+	font-family: "Merienda", sans-serif;
+	font-weight: 700;
+	margin-bottom: 2rem;
+  }
+  
+  .project-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1.5rem;
+  }
+  
+  @media (min-width: 640px) {
+	.project-grid {
+	  grid-template-columns: repeat(2, 1fr);
+	}
+  }
+  
+  @media (min-width: 1024px) {
+	.project-grid {
+	  grid-template-columns: repeat(3, 1fr);
+	}
+  }
+  
+  .project-card {
+	background-color: #fff;
+	border-radius: 0.5rem;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	padding: 1.25rem;
+	transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+	transform: scale(1.05);
+  }
+  
+  .project-image {
+	border-radius: 0.5rem;
+	margin-bottom: 1rem;
+  }
+  
+  .project-title-card {
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+  }
+  
+  .project-description {
+	color: #4b5563;
+	margin-bottom: 1rem;
+  }
+  
+  .project-button {
+	padding: 0.5rem 1rem;
+	background-color: #9b1d46;
+	color: white;
+	border-radius: 9999px;
+	transition: background-color 0.2s ease;
+  }
+  
+  .project-button:hover {
+	background-color: #be185d;
+  }
+  

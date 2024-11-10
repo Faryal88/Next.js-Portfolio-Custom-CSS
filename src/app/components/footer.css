@@ -1,0 +1,81 @@
+.footer {
+	background: linear-gradient(to right, #0e051f, #571b52);
+	position: relative;
+	padding: 1rem;
+  }
+  
+  .footer-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: row; /* Align footer items horizontally */
+	justify-content: space-between; /* Space out the content */
+	align-items: flex-start; /* Align content to the top */
+	color: #ffffff;
+  }
+  
+  .footer-title {
+	font-family: "Merienda", sans-serif;
+	font-size: 3rem;
+	font-weight: bold;
+	color: #fff;
+  }
+  
+  .footer-title .highlight {
+	color: #ec4899;
+  }
+  
+  .footer-copyright {
+	padding: 0.5rem;
+	font-size: 0.8rem;
+	color: #f9a8d4;
+	text-align: center;
+	font-family: "sans-serif";
+	font-weight: 300;
+  }
+  
+  .footer-nav,
+  .footer-social {
+	display: flex;
+	flex-direction: column; /* Keep links vertically in footer-nav */
+	gap: 1rem; /* Adds spacing between items */
+	text-align: center;
+	font-size: 1.25rem;
+	font-family: "Merienda", sans-serif;
+	font-weight: 300;
+  }
+  
+  .footer-nav {
+	align-items: flex-start; /* Align navigation links to the left */
+  }
+  
+  .footer-social {
+	display: flex; /* Enables horizontal layout for social icons */
+	flex-direction: row; /* Social icons in a horizontal line */
+	gap: 1rem; /* Adds spacing between icons */
+	align-items: center; /* Centers icons vertically */
+  }
+  
+  .footer-link {
+	color: #e0e0e0;
+	transition: color 0.3s ease;
+	text-decoration: none;
+  }
+  
+  .footer-link:hover {
+	color: #db2777;
+  }
+  
+  .social-icon {
+	border: 2px solid #ec4899;
+	border-radius: 50%;
+	transition: transform 0.3s ease;
+	width: 40px;
+	height: 40px;
+  }
+  
+  .social-icon:hover {
+	transform: scale(1.1);
+  }
+  
